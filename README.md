@@ -1,16 +1,154 @@
-# React + Vite
+# 🚀 Vishal Kumar - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built with **React** and **CSS**, showcasing my skills, projects, education, and professional journey.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Modern dark-themed UI
+* Responsive design for all devices
+* Interactive Hero Section
+* About Me Section
+* Skills Showcase
+* Featured Projects Gallery
+* Education Section
+* Contact Section
+* Smooth Navigation
+* Download Resume Option
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Vite
+
+---
+
+## 📂 Project Structure
+
+```bash
+portfolio-website/
+│
+├── public/
+│   ├── images/
+│   ├── projects/
+│   └── resume.pdf
+│
+├── src/
+│   ├── assets/
+│   │   └── components/
+│   │       ├── Hero.jsx
+│   │       ├── About.jsx
+│   │       ├── Skills.jsx
+│   │       ├── Projects.jsx
+│   │       ├── Education.jsx
+│   │       └── Contact.jsx
+│   │
+│   └── App.jsx
+│
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 📸 Sections
+
+### Hero
+
+Introduction, social links, resume download, and navigation.
+
+### About
+
+Overview of my background and interests.
+
+### Skills
+
+Frontend, Backend, Programming Languages, and Development Tools.
+
+### Projects
+
+Featured projects including:
+
+* SurveilAI-X
+* Restaurant App
+* Restaurant Backend
+* UniSphere
+* Recipe AI App
+
+### Education
+
+Bachelor of Technology (B.Tech) in Computer Science Engineering
+
+**Thapar Institute of Engineering and Technology**
+2023 - 2027
+
+### Contact
+
+Direct access to email, GitHub, and LinkedIn.
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kumarvishal8576-cyber/portfolio-website.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio-website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📬 Connect With Me
+
+### GitHub
+
+https://github.com/kumarvishal8576-cyber
+
+### LinkedIn
+
+https://www.linkedin.com/in/vishal-kumar-7ba3b230a
+
+### Email
+
+[kumarvishal8576@gmail.com](mailto:kumarvishal8576@gmail.com)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub.
+
