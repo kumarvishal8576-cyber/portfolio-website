@@ -236,3 +236,71 @@
     width: 100%;
   }
 }
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .about {
+    padding: 80px 20px;
+  }
+
+  .about-header {
+    margin-bottom: 50px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .about-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .about-image {
+    max-width: 280px;
+  }
+
+  .about-stats {
+    justify-content: center;
+  }
+
+  .stat-card {
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-image {
+    max-width: 240px;
+  }
+
+  .about-stats {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .stat-card {
+    width: 100%;
+  }
+}

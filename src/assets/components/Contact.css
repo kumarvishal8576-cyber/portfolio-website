@@ -222,3 +222,49 @@
     max-width: 280px;
   }
 }
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .contact {
+    padding: 80px 20px;
+  }
+
+  .contact-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+  }
+
+  .contact-btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-description {
+    font-size: 0.95rem;
+  }
+
+  .contact-links a {
+    font-size: 0.95rem;
+  }
+
+}

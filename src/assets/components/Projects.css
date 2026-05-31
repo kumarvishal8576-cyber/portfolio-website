@@ -245,3 +245,82 @@
     height: 200px;
   }
 }
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .projects {
+    padding: 80px 20px;
+  }
+
+  .projects-header {
+    margin-bottom: 50px;
+  }
+
+  .projects-title {
+    font-size: 2.5rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-image {
+    height: 220px;
+  }
+
+  .project-content {
+    padding: 25px;
+  }
+
+  .project-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-tech {
+    gap: 8px;
+  }
+
+  .github-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .project-image {
+    height: 180px;
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+
+  .project-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-content p {
+    font-size: 0.95rem;
+  }
+
+  .project-tech span {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+  }
+
+}
