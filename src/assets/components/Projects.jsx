@@ -9,7 +9,7 @@ const Projects = () => {
       description:
         "Edge AI based surveillance system with real-time monitoring, object detection and intelligent alert generation.",
       tech: ["Python", "OpenCV", "Docker", "K3s"],
-      image: "/public/project/surveilai.png",
+      image: "/project/surveilai.png",
       github: "#"
     },
 
@@ -18,7 +18,7 @@ const Projects = () => {
       description:
         "Full stack restaurant application with menu management, ordering system and responsive user experience.",
       tech: ["React", "Node.js", "Express.js", "MongoDB"],
-      image: "/public/project/restraunt-app.png",
+      image: "/project/restraunt-app.png",
       github: "#"
     },
 
@@ -27,7 +27,7 @@ const Projects = () => {
       description:
         "RESTful backend architecture featuring authentication, database management and scalable API design.",
       tech: ["Node.js", "Express.js", "MongoDB", "REST API"],
-      image: "/public/project/restaurant-backend.png",
+      image: "/project/restaurant-backend.png",
       github: "#"
     },
 
@@ -36,7 +36,7 @@ const Projects = () => {
       description:
         "Frontend-focused university portal built with React and modern UI principles.",
       tech: ["React", "JavaScript", "HTML", "CSS"],
-      image: "/public/project/unisphere.png",
+      image: "/project/unisphere.png",
       github: "#"
     },
 
@@ -45,7 +45,7 @@ const Projects = () => {
       description:
         "AI-powered recipe recommendation platform using intelligent backend processing and user preferences.",
       tech: ["React", "Python", "MongoDB", "API"],
-      image: "/public/project/recipe-ai.jpeg",
+      image: "/project/recipe-ai.jpeg",
       github: "#"
     }
   ]
@@ -72,10 +72,12 @@ const Projects = () => {
           <div className="project-card" key={index}>
 
             <div className="project-image">
+
               <img
                 src={project.image}
                 alt={project.title}
               />
+
             </div>
 
             <div className="project-content">
