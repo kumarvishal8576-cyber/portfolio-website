@@ -17,13 +17,14 @@ const Hero = () => {
         </div>
 
         <a
-          href="/resume.pdf"
+          href="/Vishal_Kumar_Resume.pdf"
           className="resume-btn"
-          target="_blank"
-          rel="noreferrer"
+         download="Vishal_Kumar_Resume.pdf"
         >
-          Download CV
+           Download CV
         </a>
+        
+       
 
       </div>
 
